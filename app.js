@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Change <h1> text to welcome message
     const welcomeTitle = document.getElementById('welcome-title');
     if (welcomeTitle) {
-        welcomeTitle.textContent = 'Welcome, Team Challenge!';
+        welcomeTitle.textContent = 'Welcome, Team Samridh!';
     }
 
     // Log message to console
