@@ -1,0 +1,56 @@
+/* Apply Google Roboto font site-wide */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background: linear-gradient(135deg, #0078D7, #00B294);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.product-description {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+footer.footer {
+    background: transparent;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.microsoft-link {
+    color: transparent;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer.footer:hover .microsoft-link {
+    color: white;
+}
